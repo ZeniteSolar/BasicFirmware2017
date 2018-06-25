@@ -13,3 +13,13 @@ Versão básica do firmware utilizadas pelos módulos da embarcação Guarapuvu 
 * src/can_app.h -> camada de aplicação da embarcação;
 * src/can_ids.h -> ids e definições de cada campo das camada de aplicação;
 * src/can_filters.h -> filtros para o CAN;
+
+## GLEIDISON SHIELD:
+As ligações do *SPI* entre o *MCP2515* e o *Arduino* são:
+CS     -> arduino 10 (atmega328p PB2)
+MOSI -> arduino 11 (atmega328p PB3)
+MISO -> arduino 12 (atmega328p PB4)
+SCK   -> arduino 13 (atmega328p PB5)
+INT     -> arduino 02 (atmega328p PD2)
+5V      -> arduino 5V
+GND  -> arduino GND
